@@ -26,4 +26,3 @@ Aspiring Data Analyst with experience in technology and strong interest in data-
 - VS Code
 - GitHub
 
-## Updated Portfolio
