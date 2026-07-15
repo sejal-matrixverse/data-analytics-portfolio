@@ -1,0 +1,32 @@
+PAGE 1
+------------------------------------------------
+Photo | Name | Current Role | Target Role
+------------------------------------------------
+Experience | Domain | Projects | Tools
+------------------------------------------------
+Professional Summary
+------------------------------------------------
+
+PAGE 2
+------------------------------------------------
+Analytics Skills
+Programming Skills
+ETL Skills
+Future Data Science Skills
+------------------------------------------------
+
+PAGE 3
+------------------------------------------------
+Career Timeline
+Achievements
+Technology Stack
+------------------------------------------------
+
+PAGE 4
+------------------------------------------------
+Projects
+Certifications
+GitHub
+LinkedIn
+QR Codes
+------------------------------------------------
