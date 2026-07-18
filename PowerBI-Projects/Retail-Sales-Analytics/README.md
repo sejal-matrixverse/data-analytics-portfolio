@@ -1,63 +1,25 @@
-# Sales Analytics Dashboard
+# Retail Sales Analytics
 
 ## Project Objective
 
-Analyze retail sales data to identify business trends, profitable products, customer behavior, and regional performance.
+Analyze retail order data to uncover sales trends, customer purchasing behavior, regional performance, and product profitability. Build an interactive dashboard that helps business stakeholders make data-driven decisions.
 
----
+## Business Questions
 
-## Business Problem
+1. What are the total sales and profit?
+2. Which products generate the highest revenue?
+3. Which categories are most profitable?
+4. Which regions underperform?
+5. Which customers contribute the most revenue?
+6. How do discounts affect profitability?
 
-Management wants to understand:
-
-- Which products generate the highest revenue?
-- Which categories are the most profitable?
-- Which customers contribute the most sales?
-- Which regions underperform?
-- How do discounts affect profitability?
-
----
-
-## Tools Used
+## Tools
 
 - PostgreSQL
 - SQL
 - Power BI
 - Excel
-- Git
 - GitHub
-
----
-
-## Project Workflow
-
-Business Problem
-↓
-
-Data Cleaning
-↓
-
-SQL Analysis
-↓
-
-Power BI Dashboard
-↓
-
-Business Insights
-↓
-
-Business Recommendations
-
----
-
-## Dashboard Pages
-
-- Executive Summary
-- Product Performance
-- Customer Analysis
-- Regional Performance
-
----
 
 ## Status
 

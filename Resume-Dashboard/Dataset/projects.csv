@@ -1,5 +1,7 @@
-Project,Tools,Status
-Sales Analytics Dashboard,SQL;Power BI,Planned
-Customer Churn Analysis,SQL;Python;Power BI,Planned
-HR Analytics Dashboard,Power BI,Planned
-Supply Chain Analytics,SQL;Tableau,Planned
+Project,Category,Tools,Status
+Sales Analytics Dashboard,Business Intelligence,SQL|Power BI,Planned
+Customer Churn Analysis,Analytics,SQL|Python|Power BI,Planned
+HR Analytics Dashboard,Visualization,Power BI|DAX,Planned
+Supply Chain Analytics,Operations Analytics,SQL|Tableau,Planned
+Customer Churn Prediction,Machine Learning,Python|Scikit-learn,Planned
+Synthetic Data Generator,AI/ML,Python|PyTorch,Completed
