@@ -1,25 +1,69 @@
-# Data Import
+# Data Import Documentation
 
-## Dataset
+## Project
 
-Retail Orders Dataset
+Retail Sales Analytics
 
-## Source
+---
 
-Kaggle – Retail Orders Dataset
+## Dataset Information
 
-## Import Method
+| Attribute | Value |
+|-----------|-------|
+| Dataset Name | Retail Orders |
+| Source | Kaggle – Retail Orders Dataset by Ankit Bansal |
+| File Format | CSV |
+| Target Database | retail_sales_db |
+| Target Table | retail_orders |
 
-CSV imported into PostgreSQL using VS Code.
+---
 
-## Table
+## Import Environment
 
-retail_orders
+- PostgreSQL
+- VS Code
+- SQL Extension
+- CSV Import
 
-## Rows Imported
+---
 
-(To be updated after import)
+## Import Steps
 
-## Import Date
+1. Created the `retail_sales_db` database.
+2. Connected to the database using VS Code.
+3. Created the `retail_orders` table.
+4. Imported the Retail Orders CSV into PostgreSQL.
+5. Verified successful import using SQL validation queries.
 
-(To be updated)
+---
+
+## Data Validation
+
+Validation performed after import:
+
+- Total row count
+- Sample data preview
+- NULL value check for primary key
+- Duplicate Order ID check
+
+---
+
+## Import Status
+
+✅ Successfully Imported
+
+---
+
+## Notes
+
+- `Order Date` stored as DATE.
+- `Cost Price` and `List Price` stored as NUMERIC.
+- `Discount Percent` stored as NUMERIC.
+- Dataset imported without structural changes.
+- Business metrics such as Gross Sales, Net Sales, Discount Amount, and Profit will be calculated during SQL analysis.
+
+---
+
+## Next Phase
+
+The next phase involves business analysis using SQL to calculate KPIs, identify trends, and generate insights for the Power BI dashboard.
