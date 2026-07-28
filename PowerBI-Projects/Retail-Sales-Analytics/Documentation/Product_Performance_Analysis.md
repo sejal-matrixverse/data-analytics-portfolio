@@ -2,39 +2,37 @@
 
 ## Objective
 
-The Product Performance dashboard evaluates product-level sales,
-profitability, and margin performance to identify revenue drivers,
-profit drivers, and underperforming products.
+The product performance analysis evaluates product-level sales, quantity, profitability, and profit margins to identify high-performing and underperforming products.
 
-## KPIs
+## Key Metrics
 
-- Total Net Sales
+- Net Sales
+- Total Quantity
 - Total Profit
 - Profit Margin %
-- Units Sold
+- Product Ranking
 
 ## Analysis Performed
 
-1. Top 10 Products by Net Sales
-2. Top 10 Products by Profit
-3. Bottom 10 Products by Profit
-4. Product Sales vs Profitability
-5. Category and Sub-Category Performance
-6. Product-Level Performance Table
+The analysis identifies:
 
-## Key Business Questions
+- Top 10 products by Net Sales
+- Top 10 products by Profit
+- Bottom 10 products by Profit
+- Product performance by Category
+- Product performance by Sub-Category
+- Relationship between Sales and Profitability
 
-- Which products generate the highest revenue?
-- Which products generate the highest profit?
-- Which products have high sales but low profit?
-- Which products are loss-making?
-- Which sub-categories contribute most to profitability?
-- Are revenue leaders also profit leaders?
+## Key Insights
 
-## Tools
+- High sales volume does not always result in high profitability.
+- Some products generate strong sales but have comparatively lower profit margins.
+- Products with low or negative profitability require further investigation of pricing, costs, and discount levels.
+- Product-level analysis helps identify products that contribute significantly to overall business performance.
 
-- PostgreSQL
-- SQL
-- Power BI
-- DAX
-- GitHub
+## Business Recommendations
+
+- Prioritise high-profit products in sales and promotional strategies.
+- Review pricing and discount policies for low-margin products.
+- Investigate products with high sales but low profitability.
+- Monitor product-level profitability regularly to support better pricing and inventory decisions.

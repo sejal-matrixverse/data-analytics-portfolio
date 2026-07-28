@@ -1,60 +1,100 @@
 # Power BI Dashboard
 
-## Dashboard Name
+## Overview
 
-Retail Sales Analytics — Executive Overview
+The Power BI dashboard provides an interactive view of retail sales performance, profitability, product performance, and regional and customer segment trends.
 
-## Objective
+The dashboard is divided into four analytical pages.
 
-The dashboard provides an executive-level view of retail sales performance,
-profitability, product performance, category performance, and regional trends.
+## Page 1: Executive Overview
 
-## Key KPIs
+Key metrics and visuals include:
 
 - Net Sales
 - Total Profit
 - Profit Margin %
 - Total Orders
-- MoM Sales Growth %
+- Month-over-Month Sales Growth
+- Monthly Net Sales Trend
+- Net Sales by Category
+- Net Sales by Region
+- Top 10 Products by Net Sales
 
-## Dashboard Visuals
+### Purpose
 
-1. Monthly Net Sales Trend
-2. Net Sales by Category
-3. Net Sales by Region
-4. Top 10 Products by Net Sales
+Provides a high-level overview of overall business performance and allows users to identify major sales trends and performance drivers.
 
-## Interactive Filters
+---
 
-- Year
+## Page 2: Profitability Analysis
+
+Key analysis includes:
+
+- Profit by Category
+- Profit by Region
+- Profit Margin % by Category
+- Profit by Sub-Category
+- Top 10 Most Profitable Products
+- Bottom 10 Products by Profit
+- Discount vs Profit Analysis
+
+### Purpose
+
+Identifies the main drivers of profitability and highlights products and categories that require pricing or discount optimisation.
+
+---
+
+## Page 3: Product Performance
+
+Key analysis includes:
+
+- Product and Category Performance Matrix
+- Net Sales
+- Total Profit
+- Profit Margin %
+- Top 10 Products by Net Sales
+- Top 10 Products by Profit
+- Sales vs Profitability Scatter Plot
+
+### Purpose
+
+Evaluates product-level performance and identifies products that generate strong sales, high profitability, or require further attention.
+
+---
+
+## Page 4: Regional & Segment Analysis
+
+Key analysis includes:
+
+- Profit by Region
+- Net Sales by Region
+- Profit Margin % by Customer Segment
+- Sales and Profit by Customer Segment
+- Regional Sales vs Profitability
+- Regional and Segment Performance Matrix
+
+### Purpose
+
+Analyses geographic and customer segment performance to identify high-performing regions and customer groups.
+
+---
+
+## Interactive Features
+
+The dashboard includes interactive slicers and filters that allow users to analyse the data dynamically based on relevant business dimensions.
+
+Users can explore performance by:
+
+- Date
 - Region
 - Category
-- Segment
+- Sub-Category
+- Customer Segment
+- Product
 
-## Data Model
+## Tools Used
 
-The Power BI report uses:
-
-- DateTable as the Date Dimension
-- public vw_sales_metrics as the Sales Fact/View
-
-The DateTable is connected to the sales data using:
-
-DateTable[Date] → public vw_sales_metrics[order_date]
-
-## Business Questions Answered
-
-- How are sales trending over time?
-- Which categories generate the highest sales?
-- Which regions contribute the most revenue?
-- Which products are the top performers?
-- What is the overall profitability?
-- How is sales performance changing month over month?
-
-## Tools
-
+- Power BI Desktop
+- DAX
 - PostgreSQL
 - SQL
-- Power BI
-- DAX
-- GitHub

@@ -18,6 +18,16 @@ This document describes the structure, meaning, and purpose of each field in the
 
 ---
 
+## Data Source
+
+The dataset is stored in:
+
+`Dataset/orders.csv`
+
+The data is imported into PostgreSQL and analysed using SQL before being used for Power BI reporting.
+
+---
+
 # Column Definitions
 
 | Column Name | Data Type | Description | Business Purpose |
